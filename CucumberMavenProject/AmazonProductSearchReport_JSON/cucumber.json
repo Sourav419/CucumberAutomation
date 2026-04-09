@@ -1,0 +1,426 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 282500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to Search for necessary product",
+        "description": "",
+        "id": "searching-for-products-in-amazon-website;user-should-be-able-to-search-for-necessary-product",
+        "after": [
+          {
+            "result": {
+              "duration": 178400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2500425800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user launches the website",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_launches_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27172935400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on Amazon Home Page",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_is_on_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6840763600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enter name of the Product",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_enter_name_of_the_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the user should be able to find the Product",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ProductSearching1"
+          },
+          {
+            "line": 3,
+            "name": "@Unit"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 183200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User should be able to Search for necessary product",
+        "description": "",
+        "id": "searching-for-products-in-amazon-website;user-should-be-able-to-search-for-necessary-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 98600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1299396900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user launches the website",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_launches_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53057005400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on Amazon Home Page",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_is_on_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13305317100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enter \u0027\"Samsung Mobile\"\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung Mobile",
+                  "offset": 17
+                }
+              ],
+              "location": "AmazonProducSearchingTest.the_user_enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19524000,
+              "error_message": "java.lang.AssertionError: expected [Amazon.in :Samsung Mobile] but found [Amazon.in : Samsung Mobile]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)\r\n\tat ✽.Then the user should be able to find the Product \u0027\"Samsung Mobile\"\u0027(AmazonProductSearching.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "the user should be able to find the Product \u0027\"Samsung Mobile\"\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung Mobile",
+                  "offset": 46
+                }
+              ],
+              "location": "AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@ProductSearching1"
+          },
+          {
+            "line": 10,
+            "name": "@Unit"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 131500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should be able to Search for necessary product",
+        "description": "",
+        "id": "searching-for-products-in-amazon-website;user-should-be-able-to-search-for-necessary-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 118500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1449347900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user launches the website",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_launches_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94143595500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on Amazon Home Page",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_is_on_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13723087500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enter \u0027\"Fridge\"\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fridge",
+                  "offset": 17
+                }
+              ],
+              "location": "AmazonProducSearchingTest.the_user_enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15232500,
+              "error_message": "java.lang.AssertionError: expected [Amazon.in :Fridge] but found [Amazon.in : Fridge]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)\r\n\tat ✽.Then the user should be able to find the Product \u0027\"Fridge\"\u0027(AmazonProductSearching.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "the user should be able to find the Product \u0027\"Fridge\"\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fridge",
+                  "offset": 46
+                }
+              ],
+              "location": "AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@ProductSearching1"
+          },
+          {
+            "line": 10,
+            "name": "@Unit"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 144300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to Search for necessary product",
+        "description": "",
+        "id": "searching-for-products-in-amazon-website;user-should-be-able-to-search-for-necessary-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 163800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1274452900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user launches the website",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_launches_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27966628500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on Amazon Home Page",
+            "match": {
+              "location": "AmazonProducSearchingTest.the_user_is_on_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13351347400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enter \u0027\"Camera\"\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Camera",
+                  "offset": 17
+                }
+              ],
+              "location": "AmazonProducSearchingTest.the_user_enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17622500,
+              "error_message": "java.lang.AssertionError: expected [Amazon.in :Camera] but found [Amazon.in : Camera]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)\r\n\tat ✽.Then the user should be able to find the Product \u0027\"Camera\"\u0027(AmazonProductSearching.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "the user should be able to find the Product \u0027\"Camera\"\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Camera",
+                  "offset": 46
+                }
+              ],
+              "location": "AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@ProductSearching1"
+          },
+          {
+            "line": 10,
+            "name": "@Unit"
+          }
+        ]
+      }
+    ],
+    "name": "Searching for Products in Amazon Website",
+    "description": "",
+    "id": "searching-for-products-in-amazon-website",
+    "keyword": "Feature",
+    "uri": "AmazonProductSearching.feature"
+  }
+]

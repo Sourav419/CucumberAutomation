@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="4" time="256.137983">
+    <testcase classname="Searching for Products in Amazon Website" name="User should be able to Search for necessary product" time="36.514586">
+        <skipped>
+            <![CDATA[Given the user launches the website.........................................passed
+Given the user is on Amazon Home Page.......................................passed
+When the user enter name of the Product.....................................passed
+Then the user should be able to find the Product............................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Searching for Products in Amazon Website" name="User should be able to Search for necessary product" time="67.681525">
+        <failure message="java.lang.AssertionError: expected [Amazon.in :Samsung Mobile] but found [Amazon.in : Samsung Mobile]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:512)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:189)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:199)&#13;&#10;&#9;at stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)&#13;&#10;&#9;at ✽.Then the user should be able to find the Product '&quot;Samsung Mobile&quot;'(AmazonProductSearching.feature:15)&#13;&#10;">
+            <![CDATA[Given the user launches the website.........................................passed
+Given the user is on Amazon Home Page.......................................passed
+When the user enter '"Samsung Mobile"'......................................passed
+Then the user should be able to find the Product '"Samsung Mobile"'.........failed
+
+StackTrace:
+java.lang.AssertionError: expected [Amazon.in :Samsung Mobile] but found [Amazon.in : Samsung Mobile]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)
+	at ✽.Then the user should be able to find the Product '"Samsung Mobile"'(AmazonProductSearching.feature:15)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Searching for Products in Amazon Website" name="User should be able to Search for necessary product 2" time="109.331513">
+        <failure message="java.lang.AssertionError: expected [Amazon.in :Fridge] but found [Amazon.in : Fridge]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:512)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:189)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:199)&#13;&#10;&#9;at stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)&#13;&#10;&#9;at ✽.Then the user should be able to find the Product '&quot;Fridge&quot;'(AmazonProductSearching.feature:15)&#13;&#10;">
+            <![CDATA[Given the user launches the website.........................................passed
+Given the user is on Amazon Home Page.......................................passed
+When the user enter '"Fridge"'..............................................passed
+Then the user should be able to find the Product '"Fridge"'.................failed
+
+StackTrace:
+java.lang.AssertionError: expected [Amazon.in :Fridge] but found [Amazon.in : Fridge]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)
+	at ✽.Then the user should be able to find the Product '"Fridge"'(AmazonProductSearching.feature:15)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Searching for Products in Amazon Website" name="User should be able to Search for necessary product 3" time="42.610359">
+        <failure message="java.lang.AssertionError: expected [Amazon.in :Camera] but found [Amazon.in : Camera]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:512)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:189)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:199)&#13;&#10;&#9;at stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)&#13;&#10;&#9;at ✽.Then the user should be able to find the Product '&quot;Camera&quot;'(AmazonProductSearching.feature:15)&#13;&#10;">
+            <![CDATA[Given the user launches the website.........................................passed
+Given the user is on Amazon Home Page.......................................passed
+When the user enter '"Camera"'..............................................passed
+Then the user should be able to find the Product '"Camera"'.................failed
+
+StackTrace:
+java.lang.AssertionError: expected [Amazon.in :Camera] but found [Amazon.in : Camera]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at stepDefination.AmazonProducSearchingTest.the_user_should_be_able_to_find_the_Product(AmazonProducSearchingTest.java:52)
+	at ✽.Then the user should be able to find the Product '"Camera"'(AmazonProductSearching.feature:15)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

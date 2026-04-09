@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="155.2243">
+    <testcase classname="Login to Amazon Website" name="User should be able to login to the application with valid credentails" time="28.419839">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+Given the user is on the Amazon login page..................................passed
+When the user enter valid user name and password............................passed
+Then the user should be able to login to the application....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to Amazon Website" name="User should be able to login to the application with valid credentails" time="37.564898">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+Given the user is on the Amazon login page..................................passed
+When the user enter '"sourav123@gmail.com"' and '"123456"'..................passed
+Then the user should be able to login to the application....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to Amazon Website" name="User should be able to login to the application with valid credentails 2" time="38.413778">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+Given the user is on the Amazon login page..................................passed
+When the user enter '"sourav123456@gmail.com"' and '"3245678"'..............passed
+Then the user should be able to login to the application....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to Amazon Website" name="User should be able to login to the application with valid credentails 3" time="50.825785">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+Given the user is on the Amazon login page..................................passed
+When the user enter '"sourav234@gmail.com"' and '"7865432"'.................passed
+Then the user should be able to login to the application....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
